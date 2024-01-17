@@ -1,34 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 02 - Programming Hero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="resources/css/style.css">
+    <script src="https://kit.fontawesome.com/d160ca24e9.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="resources/images/logo.png" alt="">
-                <h3>Happy Trip</h3>
-            </div>
-            <div class="nav-menu">
-                <ul>
-                    <li>Home</li>
-                    <li>Packages</li>
-                    <li>Testimonial</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+        <div class="main-container">
+            <!-- navbar -->
+            <nav class="navbar display-flex justify-content-sb align-items-center">
+                <div class="logo">
+                    <a href="" class="display-flex align-items-center">
+                        <img src="resources/images/logo.png" class="image" alt="Logo">
+                    <h3>Happy <span>Trip</span></h3>
+                    </a>
+                </div>
+                <ul class="display-flex nav-items">
+                    <li><a href="" class="active-link">Home</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
+            </nav>
+            <!-- navbar -->
+        </div>
+
+        <!-- banner -->
+        <section class="section-padding">
+            <div class="main-container">
+                <div class="banner text-align-center">
+                    <h3>Explore Your Travel</h3>
+                    <p class="sub-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias adipisci, nisi perspiciatis nemo
+                        impedit maxime quam repudiandae cum! Repudiandae suscipit minima, harum at recusandae aliquid
+                        reiciendis. Commodi sed eveniet facilis.</p>
+                    <div class="banner-search-form">
+                        <form>
+                            <div>
+                                <input type="text" class="banner-search-input" placeholder="Where to">
+                            </div>
+                            <div>
+                                <select class="banner-search-select">
+                                    <option value="" selected disabled>When</option>
+                                    <option value="">17/01/2024</option>
+                                    <option value="">18/01/2024</option>
+                                    <option value="">19/01/2024</option>
+                                </select>
+                            </div>
+                            <div>
+                                <select class="banner-search-select">
+                                    <option value="" selected disabled>Select Type</option>
+                                    <option value="">Economy</option>
+                                    <option value="">Deluxe</option>
+                                    <option value="">Business Class</option>
+                                </select>
+                            </div>
+                            <div>
+                                <button class="banner-search-button">
+                                    <i class="fa-solid fa-magnifying-glass"></i> FIND NOW
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-        </nav>
+            
+        </section>
+        <!-- banner -->
     </header>
     <main>
-
+        
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
