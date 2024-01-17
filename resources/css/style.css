@@ -209,3 +209,27 @@ select {
     margin-right: 8px;
 }
 
+/* Popular Tour css */
+.popular-tour-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 53px;
+}
+
+.popular-tour-content-list {
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+}
+
+.popular-tour-content-left .button-primary {
+    margin-top: 32px;
+}
+
+.popular-tour-content-list li:nth-child(2) {
+    margin: 16px 0;
+}
+
+.popular-tour-content-right {
+    text-align: right;
+}
+
