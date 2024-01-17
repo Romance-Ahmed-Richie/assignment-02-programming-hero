@@ -33,19 +33,17 @@ body {
     padding-bottom: 100px;
 }
 
+.d-inline-block {
+    display: inline-block;
+}
+
 .button-primary {
     background: #FF5400;
     color: #FFF;
     text-align: center;
-    font-family: Mulish;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    padding: 0 1rem;
-    width: 174px;
-    height: 52px;
-    flex-shrink: 0;
+    padding: 14px 42px;
     border: 0;
     border-radius: 8px;
 }
@@ -350,4 +348,52 @@ select {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     grid-column: 4/10;
+}
+
+/* Perfect Place Css */
+.perfect-place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 28px;
+}
+
+.perfect-place .heading {
+    max-width: 448px;
+}
+
+.perfect-place .sub-heading {
+    max-width: 532px;
+}
+
+.perfect-place-left-list {
+    max-width: 518px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.perfect-place-left-list::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #131318;
+}
+
+.perfect-place-left .button-primary {
+    margin-top: 16px;
+}
+
+.perfect-place-right video {
+    object-fit: cover;
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
 }
